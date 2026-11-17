@@ -99,18 +99,30 @@ Stations listed next to each other are connected. If `circular` is `true`, the l
 
 Each facility score is from **0** (none) to **5** (a lot).
 
+
 ## Getting started
 
-> These steps will work once the first version is ready.
+> Meetro is currently under development. The commands below will be available as implementation progresses.
 
-**Requirements**: Java 17 or later
+### Requirements
+
+- Java 17 or later
+- Apache Maven
+
+### Installation and testing
 
 ```bash
-git clone https://github.com/lhhs00805/meetro.git
-cd meetro
-./gradlew run      # run Meetro
-./gradlew test     # run tests
+git clone https://github.com/lhhs00805/Meetro.git
+cd Meetro
+mvn compile
+mvn test
 ```
+
+### Running the application
+
+The application run command will be added after the main class is implemented.
+
+> Note: The project is still in development. Some features and tests are not yet implemented.
 
 ## Contributing
 
