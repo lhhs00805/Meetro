@@ -144,13 +144,14 @@ Line files are in `data/lines/`.
 
 ## Contributing code
 
-- **Java 17** or later, built with Gradle.
+- **Language**: Java 17 or later
+- **Build tool**: Maven 3.9 or later (dependencies are listed in `pom.xml`)
 - Put code in `src/main/java` and tests in `src/test/java`.
 - Write **JUnit tests** for new features and bug fixes.
 - Run all tests before opening a PR:
 
 ```bash
-./gradlew test
+mvn test
 ```
 
 - Use clear names for classes and methods (e.g. `MeetingPointFinder`, `distancesFrom`).
@@ -167,6 +168,15 @@ AI tools are allowed in this project. If you used AI for your contribution, plea
 3. **What you accepted, changed, or rejected**
 
 You are responsible for every line you submit. Please make sure you understand your changes and can explain them during review.
+
+---
+
+## Questions?
+
+Open an issue with the `question` label, or contact the maintainers:
+[@lhhs00805](https://github.com/lhhs00805), [@yoomyeongju0113](https://github.com/yoomyeongju0113), [@jeonhajinn](https://github.com/jeonhajinn)
+
+Thank you for helping groups find a fair place to meet! 🙌
 
 ---
 
