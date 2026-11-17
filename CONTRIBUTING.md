@@ -24,14 +24,66 @@ Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before you start.
 We follow this flow for every change:
 
 ```
-Issue → Branch → Commit → Pull Request → Review → Merge
+Issue → Branch → Commit → Pull Request → Review → Merge → Done
 ```
+
+### Team review rules
+
+These are the rules our team agreed on.
+
+1. Before starting any work, **create an issue and assign a person** to it.
+2. Develop each feature on a **separate branch**.
+3. **Run the tests** (`mvn test`) after writing code.
+4. Open a **pull request** and link the related issue.
+5. **At least one other team member** must approve the PR before it is merged. You cannot approve your own PR.
+6. If changes are requested, update the PR and ask the reviewer to check again.
+7. After the review is approved, **merge** the PR and **close the issue**.
+8. Move the task to **Done** on our GitHub Projects board.
+
+#### Who reviews whom
+
+We take turns so that everyone gains experience reviewing:
+
+| PR author | Reviewer |
+| --- | --- |
+| Yoo Myeongju (@yoomyeongju0113) | Lim Hyunseo (@lhhs00805) |
+| Lim Hyunseo (@lhhs00805) | Jeon Hajin (@jeonhajinn) |
+| Jeon Hajin (@jeonhajinn) | Yoo Myeongju (@yoomyeongju0113) |
+
+If the assigned reviewer is not available, the other team member can review instead.
+
+#### What the reviewer checks
+
+- [ ] Does the PR meet every **acceptance criterion** in the linked issue?
+- [ ] Does `mvn test` pass? (Pull the branch and run it yourself.)
+- [ ] Can you read and understand the code? Are the names clear?
+- [ ] Does the PR change only files within the issue's scope?
+- [ ] If AI was used, does the PR include the AI-use note?
+
+In your review comment, **write what you checked**, not only "LGTM".
+Example: *"I counted the stops from City Hall to Gangnam by hand and the BFS result matches. Tests pass on my computer."*
+
+#### Review time
+
+Please review within **72 hours** after the PR is opened. If you cannot, tell the team in our group chat.
+
+#### When we disagree
+
+1. Explain your reasons in the PR comments and discuss.
+2. If we still cannot agree, the three of us decide together.
+3. Record the decision and the reason in the issue.
+
+#### AI reviews
+
+AI review tools may be used as **extra input only**. An AI's "no issues found" does **not** replace a human approval. If you used AI to help your review, say so in your review comment.
 
 ### 1. Start with an issue
 
 - Look at the [Issues](../../issues) tab first. Issues labeled `good first issue` are a great place to start.
 - If you want to work on an issue, leave a comment like *"I'd like to work on this."* so others know.
 - If your idea or bug is not listed, open a new issue and describe it.
+- Our tasks are tracked on the **Meetro Development** board (GitHub Projects) with five columns:
+  **Backlog → Ready → In progress → In review → Done**.
 
 ### 2. Create a branch
 
@@ -57,6 +109,7 @@ Do not work directly on the `main` branch. Create a new branch with one of these
 - Fill in the PR template.
 - Link the issue by writing `Closes #issue-number` in the PR description.
 - Keep each PR small. One PR should solve one issue.
+- Move the task to **In review** on the board.
 
 ### 5. Review
 
@@ -69,6 +122,7 @@ Do not work directly on the `main` branch. Create a new branch with one of these
 ### 6. Merge
 
 - The PR author merges after approval and after all tests pass.
+- Check that the linked issue is closed, and move the task to **Done**.
 - Delete the branch after merging.
 
 ---
@@ -178,11 +232,3 @@ Open an issue with the `question` label, or contact the maintainers:
 
 Thank you for helping groups find a fair place to meet! 🙌
 
----
-
-## Questions?
-
-Open an issue with the `question` label, or contact the maintainers:
-[@lhhs00805](https://github.com/lhhs00805), [@yoomyeongju0113](https://github.com/yoomyeongju0113), [@jeonhajinn](https://github.com/jeonhajinn)
-
-Thank you for helping groups find a fair place to meet! 🙌
