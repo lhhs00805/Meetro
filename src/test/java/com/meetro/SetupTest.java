@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 /**
  * Checks that JUnit and Maven are set up correctly.
- * This test will be replaced by real tests for Meetro's features (see issue #6).
+ * This is a temporary test until real feature tests are added. 
  */
 class SetupTest {
 
