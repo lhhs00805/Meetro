@@ -1,3 +1,4 @@
+
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
@@ -22,6 +23,13 @@
             <version>5.11.4</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- Gson: read JSON files and convert them to Java objects -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.13.2</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -31,6 +39,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.14.1</version>
             </plugin>
+
             <!-- Surefire: runs the JUnit tests when we type "mvn test" -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
