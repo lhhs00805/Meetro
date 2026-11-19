@@ -20,8 +20,8 @@ Closes #
 
 
 ## How did you test it?
-<!-- e.g. "Ran ./gradlew test", "Ran the program with Gangnam + Hongik Univ." -->
-- [ ] `./gradlew test` passes
+<!-- e.g. "Ran mvn test", "Ran the program with Gangnam + Hongik Univ." -->
+- [ ] `mvn test` passes
 - [ ] I added or updated tests for this change
 - [ ] I ran the program and checked the result myself
 
