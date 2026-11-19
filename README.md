@@ -80,8 +80,6 @@ data/
   "circular": true,
   "stations": [
     { "name": "City Hall", "elevator": true },
-    { "name": "", "elevator": true }
-    { "name": "", "elevator": true }
     { "name": "Euljiro 1(il)-ga", "elevator": true }
   ]
 }
@@ -155,6 +153,6 @@ Data taken from public sources follows the terms of its original source.
 
 | Name | GitHub | Role |
 | --- | --- | --- |
-| Yoo Myeongju | [@yoomyeongju0113](https://github.com/yoomyeongju0113) | Core Development, Algorithm & CI |
-| Lim Hyunseo | [@lhhs00805](https://github.com/lhhs00805) | Project Lead, GitHub Management & Documentation |
-| Jeon Hajin | [@jeonhajinn](https://github.com/jeonhajinn) | Subway & Facility Data Collection |
+| Yoo Myeongju | [@yoomyeongju0113](https://github.com/yoomyeongju0113) | CI Setup & Code Review |
+| Lim Hyunseo | [@lhhs00805](https://github.com/lhhs00805) | Project Lead, Documentation, Data Collection & Java Development |
+| Jeon Hajin | [@jeonhajinn](https://github.com/jeonhajinn) | Subway Data, BFS & Recommendation Algorithm |
