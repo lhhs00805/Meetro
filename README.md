@@ -40,8 +40,7 @@ Purpose: Café
 Rank 1. Euljiro 3(sam)-ga   (score 81)
    - Minsu  (Gangnam):        6 stops, about 12 min
    - Jiwon  (Hongik Univ.):   7 stops, about 14 min
-   - Myeongju (Seoul Nat'l Univ. of Sci. & Tech.): 8 stops, about 16 min
-   Nearby: Example Café A, Example Café B
+   - Gongneung (Seoul Nat'l Univ. of Sci. & Tech.): 8 stops, about 16 min
    Map: https://map.naver.com/... (search: "Euljiro 3(sam)-ga café")
 ```
 
@@ -55,7 +54,7 @@ Rank 1. Euljiro 3(sam)-ga   (score 81)
 | --- | --- |
 | Core | Find the fairest station from each person's starting station (BFS) |
 | Core | Purpose-based recommendation (food, cafe, movie, karaoke, study, walk) |
-| Core | Show nearby places and map search links |
+| Extension | Show nearby places and map search links |
 | Extension | Personal travel conditions (e.g. "at most 1 transfer", "stations with elevators only") |
 | Extension | Fairness history: give priority to people who traveled far last time |
 | Stretch | Return-home deadline and departure time for each person |
