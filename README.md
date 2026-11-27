@@ -37,27 +37,29 @@ University students and friend groups in Seoul who meet often but find it hard t
 
 ```
 Purpose: Café
-Rank 1. Euljiro 3(il)-ga   (score 81)
+Rank 1. Euljiro 3(sam)-ga   (score 81)
    - Minsu  (Gangnam):        6 stops, about 12 min
    - Jiwon  (Hongik Univ.):   7 stops, about 14 min
-   - Myeongju (Seoul Nat'l Univ. of Sci. & Tech.): 8 stops, about 16 min
-   Nearby: Example Café A, Example Café B
-   Map: https://map.naver.com/... (search: "Euljiro 3-ga café")
+   - Myeongju (Gongneung):   8 stops, about 16 min
+   Map: https://map.naver.com/... (search: "Euljiro 3(sam)-ga café")
 ```
 
-> Travel time is an estimate (about 2 minutes per stop). It may be different from the real travel time.
+
+> **Note:** The travel times and scores in the example above are illustrative values, not actual measured data. Travel time is estimated at about 2 minutes per stop and may differ from real travel times.
+
 
 ## Features
 
-| Status | Feature |
+| Priority | Feature |
 | --- | --- |
-| 🔨 In progress | Find the fairest station from each person's starting station (BFS) |
-| 🔨 In progress | Purpose-based recommendation (food, café, movie, karaoke, study, walk) |
-| 🔨 In progress | Show nearby places and map search links |
-| 📝 Planned | Personal travel conditions (e.g. "at most 1 transfer", "stations with elevators only") |
-| 📝 Planned | Fairness history: give priority to people who traveled far last time |
-| 📝 Planned | Return-home deadline and departure time for each person |
-| 📝 Planned | Total cost (transport fare + expected spending) |
+| Core | Find the fairest station from each person's starting station (BFS) |
+| Core | Purpose-based recommendation (food, cafe, movie, karaoke, study, walk) |
+| Extension | Show nearby places and map search links |
+| Extension | Personal travel conditions (e.g. "at most 1 transfer", "stations with elevators only") |
+| Extension | Fairness history: give priority to people who traveled far last time |
+| Stretch | Return-home deadline and departure time for each person |
+| Stretch | Total cost (transport fare + expected spending) |
+
 
 ## Data
 
@@ -150,6 +152,6 @@ Data taken from public sources follows the terms of its original source.
 
 | Name | GitHub | Role |
 | --- | --- | --- |
-| Yoo Myeongju | [@yoomyeongju0113](https://github.com/yoomyeongju0113) | _TBD_ |
-| Lim Hyunseo | [@lhhs00805](https://github.com/lhhs00805) | _TBD_ |
-| Jeon Hajin | [@jeonhajinn](https://github.com/jeonhajinn) | _TBD_ |
+| Yoo Myeongju | [@yoomyeongju0113](https://github.com/yoomyeongju0113) | CI Setup & Code Review |
+| Lim Hyunseo | [@lhhs00805](https://github.com/lhhs00805) | Project Lead, Documentation, Data Collection & Java Development |
+| Jeon Hajin | [@jeonhajinn](https://github.com/jeonhajinn) | Subway Data, BFS & Recommendation Algorithm |
