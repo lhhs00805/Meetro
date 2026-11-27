@@ -40,17 +40,13 @@ Closes #
 - [ ] I did not use AI tools for this PR
 - [ ] I used AI tools (please fill in below)
 
-**What I asked the AI to do:**
+**AI assistance (tool):** <!-- e.g. Claude, ChatGPT -->
 
-**Which parts are AI-generated?**
-<!-- Files or functions -->
+**Task:** <!-- What did you ask the AI to do? Which files or functions? -->
 
-**How I checked the result:**
+**Human verification:** <!-- How did you check the result? If AI wrote tests, how did you check the expected values? -->
 
-**If AI wrote tests, how did you check the expected values?**
-<!-- e.g. "Calculated the travel times by hand for 3 cases" -->
-
-**What I accepted, changed, or rejected (and why):**
+**Decision:** <!-- What did you accept, change, or reject, and why? -->
 
 
 ## Checklist
