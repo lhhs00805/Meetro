@@ -14,7 +14,7 @@ labels: data
 
 ## Details
 <!-- Follow the criteria in CONTRIBUTING.md.
-     e.g. "3 karaoke rooms within 500m of Gangnam Station Exit 11" -->
+     e.g. "3 karaoke rooms within 700m (about a 10-minute walk) of Gangnam Station" -->
 
 
 ## Source (required)
