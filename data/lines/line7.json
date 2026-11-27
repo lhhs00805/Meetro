@@ -1,0 +1,28 @@
+{
+  "line": "Line 7",
+  "circular": false,
+  "stations": [
+    { "name": "Nowon" },
+    { "name": "Junggye" },
+    { "name": "Hagye" },
+    { "name": "Gongneung" },
+    { "name": "Taereung" },
+    { "name": "Meokgol" },
+    { "name": "Junghwa" },
+    { "name": "Sangbong" },
+    { "name": "Myeonmok" },
+    { "name": "Sagajeong" },
+    { "name": "Yongmasan" },
+    { "name": "Junggok" },
+    { "name": "Gunja" },
+    { "name": "Children's Grand Park" },
+    { "name": "Konkuk Univ." },
+    { "name": "Jayang" },
+    { "name": "Cheongdam" },
+    { "name": "Gangnam-gu Office" },
+    { "name": "Hak-dong" },
+    { "name": "Nonhyeon" },
+    { "name": "Banpo" },
+    { "name": "Express Bus Terminal" }
+  ]
+}
